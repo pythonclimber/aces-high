@@ -12,7 +12,18 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     packages=setuptools.find_packages('src'),
     package_dir={'': 'src'},
+    install_requires=[
+        'click',
+        'wheel'
+    ],
     classifiers=[
-        'Programming Language :: Python :: 3'
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Build Tools',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ]
 )
